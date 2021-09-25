@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/055.jpg);
+    background-size: 100% 100%;
+}
+
+.home .nav {
+    background: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.home .nav ul {
+    list-style-type: none;
+}
+
+.home .nav ul li {
+    float: right;
+    margin: 15px 10px;
+}
+
+.home .nav ul .logo {
+    float: left;
+}
+
+.home .nav ul .logo img {
+    width: 100px;
+}
+
+.home .nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.home .nav ul li a:hover {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+/*============= end nav ===========*/
+.home .caption {
+    background-color: transparent;
+    text-align: center;
+}
+
+.home .caption img {
+    width: 400px;
+    transition: all 10s;
+}
+
+.home .caption img:hover {
+    transform: rotate(360deg) scale(1.5, 1.5) translate(400px, 400px);
+}
+
+.home .caption h1 {
+    font-size: 60px;
+    font-family: 'Style Script', cursive;
+    color: rgb(252, 249, 255);
+    margin: 40px 0px;
+}
+
+.home .caption button {
+    border: 1px solid white;
+    width: 20%;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.btn1 {
+    background-color: rgb(252, 7, 7);
+}
+
+.btn2 {
+    background-color: rgb(5, 30, 253);
+}
+
+.home .caption button:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*================ end home ===============*/
+.products hr {
+    margin: 10px auto;
+    border: 2px solid white;
+}
+
+.products h1 {
+    color: coral;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.products span {
+    color: crimson;
+}
+
+body {
+    background: black;
+}
+
+.products .item {
+    width: 23%;
+    color: rgb(255, 208, 0);
+    background: blue;
+    text-align: center;
+    float: left;
+    margin: 15px;
+    padding-bottom: 10px;
+    transition: all 1s;
+}
+
+.products .item img {
+    width: 100%;
+    border-bottom: 5px solid gray;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.products .item button:hover {
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    transform: scale(1.5, 1.5);
+}
